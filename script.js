@@ -5,7 +5,7 @@ const cityImage = document.getElementById("cityImage");
 function next(){
     index++;
     if (index >= images.length) {
-        index = 0; // परत पहिल्या इमेजवर जा
+        index = 0; 
       }
     cityImage.src = images[index];
     }
@@ -13,7 +13,7 @@ function next(){
     function previous(){
     index--;
     if (index < 0) {
-        index = images.length - 1; // शेवटच्या इमेजवर जा
+        index = images.length - 1; 
       } 
     cityImage.src = images[index];
     
