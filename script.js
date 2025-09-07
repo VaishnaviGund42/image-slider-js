@@ -19,7 +19,7 @@ function next(){
     
 
 }
-setInterval(next, 3000);
+setInterval(next, 2000);
     
 
 
