@@ -25,13 +25,21 @@ h1{
 .ico-action{
     height: 80px;
     position: absolute;
+    cursor: pointer;
+    transition: 0.5s;
 }
 .ico-prev{
 
     left: 0px;
     top: 40%;
 }
+.ico-prev:hover{
+    transform: scale(0.8);
+}
 .ico-next{
     right: 0px;
     top: 40%;
+}
+.ico-next:hover{
+    transform: scale(0.8);
 }
