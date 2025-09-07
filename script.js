@@ -9,6 +9,16 @@ function next(){
       }
     cityImage.src = images[index];
     }
+
+    function previous(){
+    index--;
+    if (index < 0) {
+        index = images.length - 1; // शेवटच्या इमेजवर जा
+      } 
+    cityImage.src = images[index];
+    
+
+}
     
 
 
